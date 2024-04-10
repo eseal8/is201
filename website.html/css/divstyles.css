@@ -1,0 +1,40 @@
+/*positioning styles*/
+.common {
+    position: absolute;
+    /*makes website fit with size of window*/
+    border: 5px solid black;
+    background-color: beige;
+}
+
+.bottom {
+    position: fixed;
+    /*makes bottom stuff always visible*/
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+    font-style: italic;
+    font-size: small;
+    background-color: lightcyan;
+}
+
+.top {
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+
+.content {
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    height: 100%;
+}
+
+.nav {
+    position: relative;
+    /*always put position:realtive with float*/
+    float: right;
+    color: white;
+}

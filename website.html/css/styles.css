@@ -1,0 +1,59 @@
+body {
+    background-color: antiquewhite;
+    color: cadetblue;
+    /*text color*/
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h5 {
+    display: inline;
+    text-align: center;
+    background-color:lightcyan; /*ask professor or TA about this*/
+    font-style: italic;
+    font-weight: bolder;
+    opacity: 50%;
+}
+
+a {
+    color: darkgreen;
+}
+
+a:visited {
+    color: darkgoldenrod;
+}
+
+img {
+    border: 2px solid cadetblue;
+    padding: 3px;
+    margin: 5px;
+    display: block;
+    /*centers stuff*/
+    margin: auto;
+    /*centers stuff*/
+    /* define .nameofstyle with "centers stuff" above to center only a few images --> then apply style directly to images that you want centered with "class="nameofstyle"" inside the <element>*/
+    /*force centering is <center></center> forcing the stuff in between to be centered*/
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+.rizz {
+    text-align: center;
+    font-style: italic;
+    border: dotted cadetblue;
+}
+
+li {
+    text-decoration: overline;
+}
+
+li:hover {
+    text-decoration: underline;
+}

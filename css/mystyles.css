@@ -1,0 +1,21 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:brown;
+}
+.site-heading-lower{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:beige;
+}
+.mb-3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:brown !important; /*!important overwrites everything else*/
+}
+.notyellow{
+    color:black !important
+}
+.intro-text{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5)
+}
+.site-heading-upper{
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 1);
+}
